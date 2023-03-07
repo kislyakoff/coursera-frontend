@@ -1,0 +1,66 @@
+#header-nav {
+  border: 2px solid black;
+  padding: 0;
+}
+
+#navbarNavAltMarkup {
+  text-align: center;
+}
+
+.navbar-nav {
+  border-top: 2px solid black;
+  background: wheat;
+}
+
+nav > .container-fluid {
+  --bs-gutter-x: 0;
+}
+
+.navbar-brand {
+  margin: 10px 16px;
+}
+
+button.navbar-toggler {
+  margin-right: 16px;
+}
+
+button.navbar-toggler:hover {
+  background: gainsboro;
+}
+
+/* inversing border color of .navbar-toggler-icon when expanded and focuced*/
+.navbar-toggler[aria-expanded="true"]:focus {
+  color: gainsboro;
+}
+
+/* inversing border color of .navbar-toggler-icon when expanded*/
+.navbar-toggler[aria-expanded="true"] {
+  border-color: gainsboro;
+}
+/* inversing bars color of .navbar-toggler-icon */
+.navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+.navbar-nav > a:not(:last-child) {
+  border-bottom: 1px solid black;
+}
+.navbar-nav > a:hover {
+  background: gainsboro;
+}
+
+#our-menu-title {
+  margin: 15px 0;
+}
+
+#chicken-menu, #beef-menu {
+  margin-bottom: 15px;
+}
+#chicken-menu, #beef-menu, #sushi-menu {
+  padding: 8px 15px;
+  background:darkgray;
+}
+
+#main-content {
+  width: 98%;
+}
